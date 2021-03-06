@@ -54,7 +54,7 @@
                           (cdkDropListDropped)="drop($event)">
                           <div class="example-box" *ngFor="let item of data.inProgress" cdkDrag>
                              <img class="rsm" src="assets/svg/kumSaati.png">
-                             <span class="todo-title"></span>{{item.todo}}</span> 
+                             <span class="todo-title">{{item.todo}}</span> 
                              <div class="button">
                                <button mat-icon-button color="warn" (click)="removeTodo(item.id)">
                                  <mat-icon> delete </mat-icon>

@@ -32,7 +32,7 @@ export class HomeComponent implements OnInit {
   ]
   } ; */
 
-  data = {};
+  data = {"pendings": [], "inProgress": [], "done": []};
 
   constructor(
     private todoService : TodoService,
