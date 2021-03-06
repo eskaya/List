@@ -127,6 +127,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "MyList"
+    }
+  },
+  "defaultProject": "MyList",
+  "cli": {
+    "analytics": false
+  }
 }
